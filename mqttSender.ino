@@ -96,5 +96,6 @@ void loop() {
     mqttClient.beginMessage(topic);
     mqttClient.print("1");
     mqttClient.endMessage();
+    delay(800);
   }
 }
